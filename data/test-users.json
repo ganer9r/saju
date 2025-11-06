@@ -1,0 +1,54 @@
+{
+  "testUsers": [
+    {
+      "id": "test-user-1",
+      "name": "홍길동",
+      "gender": "male",
+      "birthDate": "1990-01-15",
+      "birthTime": "14:30",
+      "calendarType": "solar",
+      "isLeapMonth": false,
+      "description": "양력 출생, 시간 정확"
+    },
+    {
+      "id": "test-user-2", 
+      "name": "김영희",
+      "gender": "female",
+      "birthDate": "1985-08-20",
+      "birthTime": "unknown",
+      "calendarType": "solar",
+      "isLeapMonth": false,
+      "description": "양력 출생, 시간 미상"
+    },
+    {
+      "id": "test-user-3",
+      "name": "이철수",
+      "gender": "male",
+      "birthDate": "1992-05-10",
+      "birthTime": "09:15",
+      "calendarType": "lunar",
+      "isLeapMonth": false,
+      "description": "음력 출생, 시간 정확"
+    },
+    {
+      "id": "test-user-4",
+      "name": "박미영",
+      "gender": "female",
+      "birthDate": "1988-03-25",
+      "birthTime": "23:45",
+      "calendarType": "solar",
+      "isLeapMonth": false,
+      "description": "양력 출생, 자정 근처 시간 (자시)"
+    },
+    {
+      "id": "test-user-5",
+      "name": "최준호",
+      "gender": "male",
+      "birthDate": "1995-04-15",
+      "birthTime": "06:30",
+      "calendarType": "lunar",
+      "isLeapMonth": true,
+      "description": "음력 윤달 출생"
+    }
+  ]
+}
